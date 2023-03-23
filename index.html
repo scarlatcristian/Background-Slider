@@ -4,9 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Background Slider</title>
     <link rel="stylesheet" href="style.css" />
     <script defer src="app.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="slider-container">
+      <div
+        class="slide active"
+        style="
+          background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shaqi_jrvej.jpg/1200px-Shaqi_jrvej.jpg');
+        "
+      ></div>
+      <div
+        class="slide"
+        style="
+          background-image: url('https://www.udiscovermusic.com/wp-content/uploads/2022/03/Fire-GettyImages-1323843921.jpg');
+        "
+      ></div>
+      <div
+        class="slide"
+        style="
+          background-image: url('https://cdn.hswstatic.com/gif/water-update.jpg');
+        "
+      ></div>
+      <div
+        class="slide"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1512273222628-4daea6e55abb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c25vdyUyMG1vdW50YWlufGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+        "
+      ></div>
+      <div
+        class="slide"
+        style="
+          background-image: url('https://hips.hearstapps.com/hmg-prod/images/champagne-beach-espiritu-santo-island-vanuatu-royalty-free-image-1655672510.jpg?crop=1.00xw:0.755xh;0,0.173xh&resize=1200:*');
+        "
+      ></div>
+      <button class="arrow left-arrow" id="left">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+
+      <button class="arrow right-arrow" id="right">
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+  </body>
 </html>
